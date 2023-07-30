@@ -36,7 +36,7 @@ router.post("/", upload.single("image"), (req, res, next) => {
         res.status(500).json({ error: "Data not stored" });
       } else {
         console.log("Data stored");
-        res.redirect("http://localhost:3000");
+        res.redirect("https://mustafa-nadeem-react-task-4.netlify.app");
       }
     });
   } catch (error) {

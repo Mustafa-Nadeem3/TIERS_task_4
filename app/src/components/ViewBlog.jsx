@@ -23,7 +23,7 @@ export default function ViewBlog() {
 
   useEffect(() => {
     async function getBlogs() {
-      const response = await fetch("http://localhost:4000/get_blog");
+      const response = await fetch("https://complex-pine-rhubarb.glitch.me/get_blog");
       const data = await response.json();
       console.log(data);
       setContent(data);
@@ -43,7 +43,7 @@ export default function ViewBlog() {
                   <div key={index} className="col-lg-8 col-md-6 col-sm-12 mx-auto">
                     <h2>Blog Title: {data.title}</h2>
                     <h4>Author: {data.name}</h4>
-                    <img src={`http://localhost:4000/images/${data.image}`} alt="Image" className="w-100 h-100 mb-5"/>
+                    <img src={`https://complex-pine-rhubarb.glitch.me/images/${data.image}`} alt="Image" className="w-100 h-100 mb-5"/>
                     <p><HTMLtoText htmlcode={data.blog} /></p>
                     <hr />
                   </div>

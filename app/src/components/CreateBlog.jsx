@@ -52,7 +52,7 @@ export default function CreateBlog() {
           <div className="row">
             <div className="col-12 d-flex justify-content-center align-items-center w-100">
               <div className="col-6">
-                <form action={`http://localhost:4000/post_blog?blog=${content}`} method="post" encType="multipart/form-data">
+                <form action={`https://complex-pine-rhubarb.glitch.me/post_blog?blog=${content}`} method="post" encType="multipart/form-data">
                   <div className="form-floating mb-3">
                     <input
                       type="text"
