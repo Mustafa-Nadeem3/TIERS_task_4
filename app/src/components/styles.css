@@ -1,0 +1,40 @@
+#header nav {
+  height: 70px;
+  background-color: #000000;
+}
+
+#header img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-btn:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+  border-color: #ffffff;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+#header .dropdown-menu {
+  background-color: #000000;
+}
+
+#header .dropdown-item {
+  color: #ffffff;
+}
+
+#header .dropdown-item:hover {
+  color: #000000 !important;
+}
+
+.mybtn {
+  margin-top: 100px;
+  cursor: pointer !important;
+}
+
+.mybtn:hover {
+  cursor: pointer !important;
+}
